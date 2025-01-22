@@ -21,7 +21,7 @@ ciclo:
     int 21h
     
     dec N          
-    jge ciclo      ; Continúa si N >= 0
+    jge ciclo      ;jge: Jump if Greater or Equal, Continua si N >= 0
     
     mov N, 9       ; Reinicia N
     dec M         
